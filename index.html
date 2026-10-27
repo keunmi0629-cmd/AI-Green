@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="2026 디지털혁신 백서의 장별 본문을 검색하고 열람합니다.">
+  <title>2026 디지털혁신 백서 | 장별 검색</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hero">
+    <div class="wrap">
+      <p class="eyebrow">2026 · DIGITAL INNOVATION WHITE PAPER</p>
+      <h1>2026 디지털혁신 백서 <span>〔가상〕</span></h1>
+      <p class="intro">백서의 모든 장을 살펴보고 필요한 내용을 빠르게 검색하세요.</p>
+      <div class="search-area">
+        <label for="q">백서 통합 검색</label>
+        <div class="searchbox"><span aria-hidden="true">⌕</span><input id="q" type="search" autocomplete="off" placeholder="제목 또는 본문 검색 (예: 예산, 재난안전, 한지원)"></div>
+        <div class="resultbar"><span id="count" role="status" aria-live="polite">결과 0건</span><span id="hint">제목과 본문 모두 검색합니다</span></div>
+      </div>
+    </div>
+  </div>
+  <main class="wrap"><div id="list" class="cards" aria-label="백서 장 목록"></div></main>
+  <footer class="wrap">자료: 2026년 행정안전부 디지털혁신 백서 (가상) · 제공된 원문 그대로 표시</footer>
+  <script src="데이터.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
